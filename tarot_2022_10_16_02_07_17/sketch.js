@@ -79,5 +79,6 @@ function draw() {
   image(card,random(500,510),random(50,60),300,350);
   //text("3000",200,200)
   printData(data,x);
-  
+  textSize(20);
+  text("use your mouse to choose your cards and see the future!",150,35)
 }
